@@ -21,9 +21,6 @@ body {
 .h-heading a {
   color: #2b3641;
   text-decoration: none !important;
-  -webkit-transition: color .25s ease-in;
-  -o-transition: color .25s ease-in;
-  transition: color .25s ease-in;
   cursor: pointer;
 }
 .slider__image {
