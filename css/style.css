@@ -151,7 +151,7 @@ body {
   top: 20px;
   left: 20px;
   transform-style: preserve-3d;
-  transition: all .5s ease-in;
+  transition: .5s;
 }
 .block__title{
   margin-bottom: 5px;
