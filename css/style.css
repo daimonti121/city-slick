@@ -60,11 +60,11 @@ body {
     border-radius: 5px;
     font-size: 0;
     line-height: 100px;
-        display: inline-block;
-        margin-bottom: 10px;
-        width: 100%;
-        text-decoration: none !important;
-        text-align: center
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    text-decoration: none !important;
+    text-align: center
 }
 .operators-cards__caption {
   padding-top: 10px;
@@ -150,7 +150,8 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
- transition: all .5s ease-in;
+  transform-style: preserve-3d;
+  transition: all .5s ease-in;
 }
 .block__title{
   margin-bottom: 5px;
@@ -176,7 +177,7 @@ body {
   width: 1140px;
   margin-left: 20px;
   margin-right: 20px;
-}
+  }
 }
 @media (max-width: 1200px) {
   .container {
