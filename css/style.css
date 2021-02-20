@@ -165,8 +165,13 @@ body {
   line-height: 21px;
 }
 .block__text {
-  
   line-height: 21px;
+}
+.slick-dots li button:before {
+  display: none;
+}
+.slick-dots li.slick-active button:before {
+ display: none;
 }
 @media (max-width: 1325px) {
 .container__galeri {
