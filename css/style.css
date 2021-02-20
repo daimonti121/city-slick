@@ -150,8 +150,7 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  transform-style: preserve-3d;
-  transition: .5s;
+  transition: 1s;
 }
 .block__title{
   margin-bottom: 5px;
